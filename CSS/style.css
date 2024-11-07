@@ -1,0 +1,291 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 2022年11月6日, 下午2:08:08
+    Author     : EauDouce
+*/
+/*Making the whole style,including top navigation-bar(header),footer,body,main style.*/
+*{
+    margin:0;
+    padding:0;  
+    text-decoration: none
+}
+body{
+ font-size: 25px;
+ width: 100%;
+ min-width: 1200px;
+ background-color:#99ccff;   
+}
+/*the style of footer*/
+.footer {
+  background-color: #ff6666;
+  padding: 38px;
+  text-align: center;
+  clear: both
+}
+.footer p{
+   color: white;
+   font-size: 38px;        
+}
+h1{
+font-family: "Segoe Script","Segoe Print","Edwardian Script","ITC,Algerian","Arial","Microsoft YaHei";
+text-indent: 1em;
+}
+/*the rest style:navigation*/  
+  ul {
+  list-style-type: none;
+  margin:0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color:#999999;
+  text-align: right
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
+}
+li a:hover {
+    background-color: #9999ff;
+}
+li {
+    border-right: 1.5px solid #ffffff;
+}
+li:last-child {
+  border-right: none;
+}  
+.navigation{
+    margin: auto;    
+}
+#back{
+float:right;
+    
+}
+.active{
+        background-color: #ff6666
+}
+/*The whole style is settled*/
+/*Main Page style-----------------------------------------------------------------------------*/
+.max{
+ height:850px;
+ width:100%;
+ font-size: 25px;
+ width: 100%;
+ min-width: 1255px;
+ background-color: #99ccff;
+}
+.box1{
+    width: 100%;
+    height: 100vh;   
+}
+.main{
+    width:100%;
+    text-align: center;
+    position: relative;
+    top:250px;
+    justify-content: center;        
+}
+/*the style of one picture with two lines in the main page*/
+.main img{
+    width:213px;
+    height:213px;
+    border-radius:50%;   
+}
+/*set the whole font-size and make a round picture to introduce myself in the middle of the screen*/
+.main h2{
+    font-size:25px;
+    margin :15px 0;
+    color :#fff;
+}
+.main p {
+    margin :15px 0;
+    font-size:20px;   
+}
+/*Try my best to make a mainpage side navigation*/
+.side{
+    width:250px;
+    height:700px;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius:12px;
+    position: absolute;
+    display:flex;
+    top:100px;
+    left:150px;
+}
+.nav{
+    width:100%;
+    height:15%;
+    margin:9px;
+    position:relative ;
+    color:#666666;
+    display: block;
+    text-align: center;    
+}
+/*Make an interaction*/
+.nav:hover{
+    background-color:#ffcc33;
+    color: #fff
+}
+.nav span{
+    text-align: center;
+    font-size: 25px;
+    display:block;
+    justify-content: center;
+    line-height: 84px;
+}
+/*set the style of words in the nav*/
+.side a{
+    text-decoration: none
+}
+  /*The main page index.html is finished------------------------------------------------------------------*/
+  /*Hometown------------------------------------------------------------------------------------as follows*/ 
+/*Set the style of pictures with text.   Layout：left and right */
+.mhblock{
+    width: 100%;
+    height: 500px;
+}
+.mhtext{
+    background-color: white;
+    border-radius:12px;
+    float: left;
+    width: 45%;
+    padding: 15px;
+    margin:30px;
+    opacity: 75%
+    }  
+.mhblock img{
+    width:650px;
+    height: 450px;
+    float:right;
+    border-radius:12px;
+    left:100px
+}
+.spot{
+    float:right;
+    left:100px; 
+    display: flex;
+    margin-right: 2%   ;     
+}
+.avoidcollapse{
+ min-width: 1400px;
+}
+/*Hometown finished---------------------------------------------------------------------*/
+/*Hobbies and My study life         Layout： Holy grail for My study life and Hobbies!（An attempt）*/
+.pink{
+    background-color: #ffcccc   
+}
+#content{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#content #left{
+    background-color: white; 
+    width: 400px;
+    height: 1790px;
+    margin-left: -100%;
+    position: relative;
+    right:400px;
+    border-radius: 12px;
+    opacity: 75%;
+}
+#content #center{ 
+    background-color:#ccccff;
+    opacity:0.9;
+    width: 100%;
+    border-radius: 12px
+}
+#content #right{
+    background-color: white;
+    width:400px;
+    height: 1790px;
+    margin-right: -400px;
+    border-radius: 12px;
+    opacity: 75%
+}
+#content .column{
+    float:left;
+}
+/*The frame is settled*/
+/*The style of font in the frame*/
+
+.hobbytext{    
+    text-align: center;
+    width: 100%;
+    height: 1790px;
+    display: inline-block;        
+}
+.column img{
+    width: 100%;
+    border-radius:12px;
+}
+/*
+Making the text fixed and change the size of pictures to access this responsive design.
+Succeeded in making the whole layout.Tried hard. Yeah
+*/
+/*The style for Me with computer--------------------------------------------------------*/
+.mwctext{
+    width: 94%;
+    height: 520px;
+    background-color: #ffcccc;
+    border-radius: 12px;
+    font-size: 38px;
+    padding: 3%
+}
+.box2{
+    width: 50%;
+    height: 350px;
+    margin: 0 auto        
+}
+.box2 img{
+     border-radius:25px;
+     width: 30%;
+     display: inline-block;
+     float: left;
+     margin: 0;
+     position: relative;
+     left: 160px;        
+}
+.box3{
+    width: 100%;   
+}
+.mwctext h4{
+    text-align: center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
